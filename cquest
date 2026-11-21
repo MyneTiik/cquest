@@ -1,0 +1,3 @@
+#!/bin/bash
+# Lanceur : ./cquest   (ou alias cquest='.../cquest')
+exec python3 "$(dirname "$0")/cquest.py" "$@"
